@@ -4,15 +4,15 @@
 
 [>> Página de Inscrição do evento](https://inscricao.imersaoaws.com.br)
 
-#### 1o PASSO -> Rodar o projecto no Localhost ####
+#### PASSO 1 -> Rodar o projecto no Localhost ####
 ```
 ./rodar_app_local_unix.sh'
 ```
-#### 2o PASSO ->  Para criar o container usando Docker Composer ####
+#### PASSO 2 ->  Para criar o container usando Docker Composer ####
 ```
 docker-compose up -d'
 ```
-#### 3o PASSO -> Para rodar as migrations no container ####
+#### PASSO 3 -> Para rodar as migrations no container ####
 ```
 docker-compose exec server bash -c 'npx sequelize db:migrate'
 ```

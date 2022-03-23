@@ -58,7 +58,7 @@ function App() {
     );
   };
 
-  //Adicionar Tarefa
+  //Inserir Tarefa
   const addTask = async (task) => {
     const res = await fetch(`${apiUrl}/api/tarefas`, {
       method: "POST",
